@@ -13,10 +13,11 @@ def func():
     #     mison_v.append(mison_v_str[l])
     #     mison_time.append(mison_time_str[l])
     #     mison_dead.append(mison_dead_str[l])
-    mison_num=3
-    mison_v=[60,100,120]
-    mison_time=[10,20,30]
-    misson_dead=[50,50,50]
+
+    mison_num=4
+    mison_v=[0,60,100,120]
+    mison_time=[0,10,20,30]
+    misson_dead=[0,50,50,50]
     dead=50
     val_array=np.zeros(dead+1,dtype=np.int32)
     for l in range(1,mison_num):
@@ -28,10 +29,6 @@ def func():
     print(value_opt)
     return value_opt
 
-
-    # please define the python3 input here. For example: a,b = map(int, input().strip().split())
-    # please finish the function body here.
-    # please define the python3 output here. For example: print().
 
 if __name__ == "__main__":
     func()
